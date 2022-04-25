@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="/img/favicon/portafolio.svg">
+</head>
+<body>
+
+<!-- Page Loader Start -->
+<div class="page-loader">
+  <div class="page-loader-inner">
+    <div class="circle"></div>
+    Loading
+  </div>
+</div>
+<!-- Page Loader End -->
+
+<!-- Bg Animation Effect Start-->
+<div class="bg-animation-effect">
+</div>
+<!-- Bg Animation Effect End-->
+
+<!-- Overlay Effect Start-->
+<div class="overlay-effect">
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+</div>
+<!-- Overlay Effect End-->
+
+
+<!-- Header Start-->
+<header class="header">
+  <div class="container">
+    <div class="row flex-end">
+      <button type="button" class="nav-toggler">
+        <span></span>
+      </button>
+      <!-- nav -->
+      <nav class="nav">
+        <div class="nav-inner">
+          <ul>
+            <li><a href="#about" class="nav-item link-item">about</a></li>
+            <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+            <li><a href="#contact" class="nav-item link-item">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- Header End--> 
+
+<!-- About Section Start-->
+<section class="about-section active" id="about">
+  <div class="container">
+    <div class="row min-vh-100">
+      <div class="about-content">
+        <img src="img/andres_avendano.jpg" alt="">
+        <h1>Hi, my name is Andrés Avendaño</h1>
+        <p>I'm a <span>frontend developer</span> in living Medellín, Colombia. I make web applications using <span>html</span>, <span>css</span>, <span>javascript</span> and <span>wordpress</span>. Check out my latest work on the <a href="#portfolio" class="link-item">portfolio page</a>. Want to talk about a project? you can get in touch with me <a href="#contact" class="link-item">here</a>.</p>
+        <h2>Skills</h2>
+        <div class="skills">
+          <!-- <div class="skill-item">html</div>
+          <div class="skill-item">css</div>
+          <div class="skill-item">javascript</div>
+          <div class="skill-item">php</div>
+          <div class="skill-item">wordpress</div>
+          <div class="skill-item">angular</div>
+          <div class="skill-item">react</div> -->
+
+          <div class="skill-item-img"><img src="img/skills/html5.png" alt="html5"></div>
+          <div class="skill-item-img"><img src="img/skills/css.png" alt="css"></div>
+          <div class="skill-item-img"><img src="img/skills/javascript.png" alt="js"></div>
+          <div class="skill-item-img"><img src="img/skills/react.png" alt="react"></div>
+          <div class="skill-item-img"><img src="img/skills/angular2.png" alt="Angular"></div>
+          <div class="skill-item-img"><img src="img/skills/vue2.png" alt="vue"></div>
+          <div class="skill-item-img"><img src="img/skills/git.png" alt="git"></div>
+          <div class="skill-item-img"><img src="img/skills/wordpress.png" alt="Wordpress"></div>
+          <div class="skill-item-img"><img src="img/skills/sass.png" alt="sass"></div>
+          <div class="skill-item-img"><img src="img/skills/Bootstrap.png" alt="Bootstrap"></div>
+          <div class="skill-item-img"><img src="img/skills/php.png" alt="php"></div>
+          <div class="skill-item-img"><img src="img/skills/mysql2.png" alt="mysql"></div>
+          <!-- <div class="skill-item-img"><img src="img/skills/nodejs.png" alt="nodejs"></div>
+          <div class="skill-item-img"><img src="img/skills/mongodb2.png" alt="mongodb"></div> -->
+
+        </div>
+        <h2></h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About Section End -->
+
+<!-- Portafolio Section Start -->
+<section class="portafolio-section sec-padding" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Recent works</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="portfolio-filter">
+        <button type="button" title="Show All Works" class="portfolio-filter-btn active" data-filter="all">all</button>
+        <button type="button" title="Filter by Front-End" class="portfolio-filter-btn " data-filter="front-end">front-end</button>
+        <button type="button" title="Filter by Back-End" class="portfolio-filter-btn " data-filter="back-end">back-end</button>
+        <button type="button" title="Filter by Wordpress" class="portfolio-filter-btn " data-filter="wordpress">wordpress</button>
+      </div>
+      <div class="filter-status">
+        <p>filtering <span>all</span> works</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/11.JPG" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Personal portfolio website</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>This is a portfolio website built with HTML and CSS <br> Use flexbox and grid to build friendly layout and mediaquires for responsive layout to any device. <br>A website that contains a navigation menu, a header, sections with implementation of effects in css and their respective footer, in addition to implementing the normalize.css library to improve some errors and the start styles in browsers.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>4 December 2020</span> </p>
+            <p>Technologies Used - <span>Html, Css</span> </p>
+            <p>Role - <span>Front-End</span></p>
+            <p>View Online - <span><a href="#" target="_blank">www.google.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/22.JPG" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Restaurant "Foot." website</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>This is a website built with HTML, CSS and Javascript <br>It contains a dynamic sticky navigation menu, a header, sections with grid and flexbox and contact form validated in javascript. <br>All this with its respective responsive design </p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>17 December 2020</span> </p>
+            <p>Technologies Used - <span>Html, Css, JavaScript</span> </p>
+            <p>Role - <span>Front-End</span></p>
+            <p>View Online - <span><a href="#" target="_blank">www.google.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/33.JPG" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Coffie 3D landing page</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>This is a cafe web page, implementing html, css with flexbox and grid and javascript plus the GSAP library for animations. <br>Navigation menu and mediaquires for responsive design are also implemented. </p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>17 December 2020</span> </p>
+            <p>Technologies Used - <span>Html, Css, JavaScript</span> </p>
+            <p>Role - <span>Front-End</span></p>
+            <p>View Online - <span><a href="#" target="_blank">www.google.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/44.JPG" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">PS4 landing page</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>This is a ps4 controller webpage to implement animation and effects with the GSAP Javascript library. <br> Contains its respective html, css and javascript. </p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>3 February 2021</span> </p>
+            <p>Technologies Used - <span>Html, Css, JavaScript</span> </p>
+            <p>Role - <span>Front-End</span></p>
+            <p>View Online - <span><a href="#" target="_blank">www.google.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/55.JPG" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Starbucks landing page</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>In this web page, html, css and javascript were implemented to build a nice landing page with effects.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>20 February 2021</span> </p>
+            <p>Technologies Used - <span>Html, Css, JavaScript</span> </p>
+            <p>Role - <span>Front-End</span></p>
+            <p>View Online - <span><a href="#" target="_blank">www.google.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="front-end,wordpress">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/SolucionesEnConfort.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">"Soluciones en confort" website</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>This is a website of construction for <a target="_blank" href="http://nojestudio.com">Nojestudio</a> created in wordpress using the divi builder, widgets, plugins and some modifications in the codex with HTML, CSS, Javascript and Php. </p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>16 March 2021</span> </p>
+            <p>Technologies Used - <span>Html, Css, JavaScript, Wordpress, Divi, Php</span> </p>
+            <p>Role - <span>Web developer</span></p>
+            <p>View Online - <span><a href="http://solucionesenconfort.com" target="_blank">solucionesenconfort.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/kfc.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">KFC landing page</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>This is a landing page created with HTML, CSS and JavaScript, using flexbox and grid and madiaqueries for responsive design.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>18 March 2022</span> </p>
+            <p>Technologies Used - <span>Html, Css, JavaScript</span> </p>
+            <p>Role - <span>Front-End</span></p>
+            <p>View Online - <span><a href="#" target="_blank">www.google.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/Petcare.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Petcare Website</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>This is a pet care website built with HTML, CSS using grid and flexbox in addition to being completely responsive design with mediaquires and animations with kayframes, it also has javascript and <b>localstorage</b>  implementation.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>2 Abril 2022</span> </p>
+            <p>Technologies Used - <span>Html, Css, JavaScript</span> </p>
+            <p>Role - <span>Front-End</span></p>
+            <p>View Online - <span><a href="#" target="_blank">www.google.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="back-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/3.JPG" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Back-end project title</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem praesentium optio quae, impedit libero corporis ullam dolorem cum quisquam aperiam, id labore sapiente suscipit est at, officiis magnam. Quo, quod.
+            Explicabo iste eum sint, quisquam dolorem vel voluptas iure voluptates laudantium nisi qui dolor consectetur! Aperiam, commodi voluptates temporibus error minima odio.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>2 Abril 2021</span> </p>
+            <p>Technologies Used - <span>Html, Css, JavaScript, php</span> </p>
+            <p>Role - <span>Back-End</span></p>
+            <p>View Online - <span><a href="#" target="_blank">www.google.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/MiAdministradorDeTareas.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Task Manager</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>This is a task manager developer like test in the company that i realized my practics profecionals <br>Using HTML, CSS and Javascript with <b>localstorage. </b></p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>8 August 2018</span> </p>
+            <p>Technologies Used - <span>Html, Css, JavaScript</span> </p>
+            <p>Role - <span>Front-End</span></p>
+            <p>View Online - <span><a href="#" target="_blank">www.google.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+
+      <!-- Portfolio Items Start -->
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/pixabayReact.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Pixabay API React</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>This is project that i realized in <b>React</b> using HTML, CSS and Javascript and consuming a api of the<a href="https://pixabay.com/">pixabay</a> for the listing your information</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>28 Abril 2022</span> </p>
+            <p>Technologies Used - <span>Html, Css, JavaScript, React</span> </p>
+            <p>Role - <span>Front-End</span></p>
+            <p>View Online - <span><a href="#" target="_blank">www.google.com</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Items End -->
+      
+    </div>
+  </div>
+</section>
+<!-- Portafolio Section End -->
+  
+
+<!-- Contact Section Start -->
+<section class="contact-section sec-padding min-vh-100" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>contact me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="contact-content">
+        <div class="contact-text">
+          <p>If you liked my work and you want to contact me you can do it through the different means or send me a message through the button below. greetings!</p>
+        </div>
+        <div class="contact-info-item">
+          <p>Email me on <span>jordres1@gmail.com</span></p>
+        </div>
+        <div class="contact-info-item">
+          <p class="social-links">
+            <span>Find me on</span>
+            <a href="https://www.facebook.com/j.andres.avendano/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+            <a href="https://www.instagram.com/andresavendano_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/andresavendanodev/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://co.linkedin.com/in/andr%C3%A9s-avenda%C3%B1o-salazar-574812238?trk=people-guest_people_search-card" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
+          </p>
+        </div>
+        <button type="button" class="btn toggle-contact-form-btn">Send message</button>
+      </div>
+      <!-- Contact Form Start -->
+      <div class="contact-form">
+        <div class="contact-form-inner">
+          <div class="contact-form-container">
+            <button type="button" class="close-btn toggle-contact-form-btn"></button>
+            <form action="">
+              <div class="row">
+                <div class="input-group">
+                  <input type="text" placeholder="Your Name" class="input-control">
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Your Email" class="input-control">
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Subject" class="input-control">
+                </div>
+                <div class="input-group">
+                  <textarea placeholder="Message" class="input-control"></textarea>
+                </div>
+                <div class="input-group">
+                  <button type="submit" class="btn btn-submit">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Form End -->
+    </div>
+  </div>
+</section>
+<!-- Contact Section End -->
+
+
+
+
+<!--  Portfolio Item Details Popup Start-->
+  <div class="portfolio-popup">
+    <div class="pp-overlay"></div>
+    <div class="pp-inner">
+      <div class="pp-content">
+        <div class="pp-header">
+          <h2 class="pp-counter">
+            7 of 7 ( <span>all</span> )
+          </h2>
+          <button type="button" title="close" class="close-btn pp-close-btn"></button>
+          <div class="pp-thumbnail">
+            <img src="img/portfolio/7.jpg" alt="pp-thumbnail">
+          </div>
+          <h3></h3>
+        </div>
+        <div class="pp-body">
+        </div>
+
+        <div class="pp-footer">
+          <div class="pp-footer-left hidden">
+            <button type="button" title="Prev Work" class="btn pp-prev-btn">
+              <i class="fas fa-arrow-left"></i>
+            </button>
+            <h3>Prev work title</h3>
+            <img src="img/portfolio/11.jpg" alt="Prev work thumbnail">
+          </div>
+          <div class="pp-footer-right hidden">
+            <button type="button" title="Next Work" class="btn pp-next-btn">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+            <h3>Next work title</h3>
+            <img src="img/portfolio/22.jpg" alt="Next work thumbnail">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<!--  Portfolio Item Details Popup End-->
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
